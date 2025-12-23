@@ -11,7 +11,7 @@ describe('API Client', () => {
   });
 
   it('includes Authorization header when token exists', async () => {
-    localStorage.setItem('planac_token', 'test-token');
+    localStorage.setItem('trailsystem_token', 'test-token');
     
     mockFetch.mockResolvedValueOnce({
       ok: true,
@@ -33,7 +33,7 @@ describe('API Client', () => {
   });
 
   it('handles 401 response by clearing token', async () => {
-    localStorage.setItem('planac_token', 'expired-token');
+    localStorage.setItem('trailsystem_token', 'expired-token');
     
     mockFetch.mockResolvedValueOnce({
       ok: false,
@@ -50,6 +50,6 @@ describe('API Client', () => {
     }
 
     // Token should be cleared on 401
-    expect(localStorage.getItem('planac_token')).toBeNull();
+    expect(localStorage.getItem('trailsystem_token')).toBeNull();
   });
 });

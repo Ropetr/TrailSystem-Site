@@ -43,13 +43,13 @@ describe('authService', () => {
 
   describe('logout', () => {
     it('clears token from localStorage', () => {
-      localStorage.setItem('planac_token', 'test-token');
-      localStorage.setItem('planac_user', JSON.stringify({ id: '1' }));
+      localStorage.setItem('trailsystem_token', 'test-token');
+      localStorage.setItem('trailsystem_user', JSON.stringify({ id: '1' }));
       
       authService.logout();
       
-      expect(localStorage.getItem('planac_token')).toBeNull();
-      expect(localStorage.getItem('planac_user')).toBeNull();
+      expect(localStorage.getItem('trailsystem_token')).toBeNull();
+      expect(localStorage.getItem('trailsystem_user')).toBeNull();
     });
   });
 
@@ -80,7 +80,7 @@ describe('authService', () => {
 
   describe('isAuthenticated', () => {
     it('returns true when token exists', () => {
-      localStorage.setItem('planac_token', 'test-token');
+      localStorage.setItem('trailsystem_token', 'test-token');
       expect(authService.isAuthenticated()).toBe(true);
     });
 
@@ -92,7 +92,7 @@ describe('authService', () => {
   describe('getStoredUser', () => {
     it('returns parsed user from localStorage', () => {
       const user = { id: '1', nome: 'Test' };
-      localStorage.setItem('planac_user', JSON.stringify(user));
+      localStorage.setItem('trailsystem_user', JSON.stringify(user));
       
       expect(authService.getStoredUser()).toEqual(user);
     });

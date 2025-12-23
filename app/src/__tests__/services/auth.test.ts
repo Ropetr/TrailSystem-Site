@@ -24,7 +24,7 @@ describe('Auth Service', () => {
 
       const result = await authService.login({ email: 'user@test.com', senha: '123456' });
 
-      expect(localStorage.setItem).toHaveBeenCalledWith('planac_token', 'jwt-token-123');
+      expect(localStorage.setItem).toHaveBeenCalledWith('trailsystem_token', 'jwt-token-123');
       expect(result.success).toBe(true);
       expect(result.usuario?.nome).toBe('Usuário');
     });
@@ -47,8 +47,8 @@ describe('Auth Service', () => {
     it('remove tokens do localStorage', async () => {
       await authService.logout();
 
-      expect(localStorage.removeItem).toHaveBeenCalledWith('planac_token');
-      expect(localStorage.removeItem).toHaveBeenCalledWith('planac_user');
+      expect(localStorage.removeItem).toHaveBeenCalledWith('trailsystem_token');
+      expect(localStorage.removeItem).toHaveBeenCalledWith('trailsystem_user');
     });
   });
 

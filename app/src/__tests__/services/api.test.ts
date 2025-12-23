@@ -115,7 +115,7 @@ describe('API Client', () => {
       // Esperado
     }
 
-    expect(localStorage.removeItem).toHaveBeenCalledWith('planac_token');
+    expect(localStorage.removeItem).toHaveBeenCalledWith('trailsystem_token');
     expect(window.location.href).toBe('/login');
 
     window.location = originalLocation;
