@@ -178,7 +178,7 @@ export function EmpresaFormPage() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center gap-2 px-4 py-3 text-sm font-medium transition-colors border-b-2 -mb-px ${
                   activeTab === tab.id
-                    ? 'text-planac-600 border-red-600'
+                    ? 'text-planac-600 border-planac-500'
                     : 'text-gray-500 border-transparent hover:text-gray-700'
                 }`}
               >
@@ -326,6 +326,3 @@ export function EmpresaFormPage() {
 }
 
 export default EmpresaFormPage;
-
-// Export nomeado para compatibilidade
-export { EmpresaFormPage };

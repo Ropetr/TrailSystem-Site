@@ -521,6 +521,3 @@ export function ProdutosOnlinePage() {
 }
 
 export default ProdutosOnlinePage;
-
-// Export nomeado para compatibilidade
-export { ProdutosOnlinePage };

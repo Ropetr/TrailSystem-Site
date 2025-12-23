@@ -577,6 +577,3 @@ export function AtividadesPage() {
 }
 
 export default AtividadesPage;
-
-// Export nomeado para compatibilidade
-export { AtividadesPage };

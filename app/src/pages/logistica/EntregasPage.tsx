@@ -467,6 +467,3 @@ export function EntregasPage() {
 }
 
 export default EntregasPage;
-
-// Export nomeado para compatibilidade
-export { EntregasPage };

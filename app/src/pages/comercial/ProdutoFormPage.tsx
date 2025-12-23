@@ -236,7 +236,7 @@ export function ProdutoFormPage() {
                   onClick={() => setActiveTab(tab.id)}
                   className={`flex items-center gap-2 py-3 border-b-2 text-sm font-medium transition-colors ${
                     activeTab === tab.id
-                      ? 'border-red-600 text-planac-600'
+                      ? 'border-planac-500 text-planac-600'
                       : 'border-transparent text-gray-500 hover:text-gray-700'
                   }`}
                 >
@@ -454,6 +454,3 @@ export function ProdutoFormPage() {
 }
 
 export default ProdutoFormPage;
-
-// Export nomeado para compatibilidade
-export { ProdutoFormPage };

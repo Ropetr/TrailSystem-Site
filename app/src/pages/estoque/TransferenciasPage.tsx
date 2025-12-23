@@ -433,6 +433,3 @@ export function TransferenciasPage() {
 }
 
 export default TransferenciasPage;
-
-// Export nomeado para compatibilidade
-export { TransferenciasPage };

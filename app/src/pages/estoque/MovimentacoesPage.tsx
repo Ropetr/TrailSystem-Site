@@ -378,6 +378,3 @@ export function MovimentacoesPage() {
 }
 
 export default MovimentacoesPage;
-
-// Export nomeado para compatibilidade
-export { MovimentacoesPage };

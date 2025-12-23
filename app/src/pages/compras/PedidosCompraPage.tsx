@@ -456,6 +456,3 @@ export function PedidosCompraPage() {
 }
 
 export default PedidosCompraPage;
-
-// Export nomeado para compatibilidade
-export { PedidosCompraPage };

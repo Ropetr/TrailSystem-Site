@@ -234,7 +234,7 @@ export function BaseConhecimentoPage() {
           <button
             key={cat.id}
             className={`p-4 rounded-lg border text-center transition-colors ${
-              categoriaFilter === cat.id ? 'border-red-600 bg-planac-50' : 'hover:border-gray-300'
+              categoriaFilter === cat.id ? 'border-planac-500 bg-planac-50' : 'hover:border-gray-300'
             }`}
             onClick={() => setCategoriaFilter(categoriaFilter === cat.id ? '' : cat.id)}
           >
@@ -394,6 +394,3 @@ export function BaseConhecimentoPage() {
 }
 
 export default BaseConhecimentoPage;
-
-// Export nomeado para compatibilidade
-export { BaseConhecimentoPage };

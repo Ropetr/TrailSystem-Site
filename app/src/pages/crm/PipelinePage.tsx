@@ -459,6 +459,3 @@ export function PipelinePage() {
 }
 
 export default PipelinePage;
-
-// Export nomeado para compatibilidade
-export { PipelinePage };

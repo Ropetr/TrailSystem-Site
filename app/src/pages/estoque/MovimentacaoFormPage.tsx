@@ -465,7 +465,7 @@ export function MovimentacaoFormPage() {
       <Card>
         <h2 className="text-lg font-semibold mb-4">Observações</h2>
         <textarea
-          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:border-red-600 focus:ring-2 focus:ring-red-500 ring-opacity-20 outline-none resize-none"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:border-planac-500 focus:ring-2 focus:ring-planac-500/20 outline-none resize-none"
           rows={3}
           placeholder="Observações adicionais..."
           value={observacao}
@@ -592,6 +592,3 @@ export function MovimentacaoFormPage() {
 }
 
 export default MovimentacaoFormPage;
-
-// Export nomeado para compatibilidade
-export { MovimentacaoFormPage };

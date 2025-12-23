@@ -224,6 +224,3 @@ export default function ColaboradorFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { ColaboradorFormPage };

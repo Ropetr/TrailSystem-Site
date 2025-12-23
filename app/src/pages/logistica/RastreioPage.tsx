@@ -160,7 +160,7 @@ export function RastreioPage() {
         {/* Loading */}
         {isLoading && (
           <Card className="text-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mx-auto mb-4" />
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500 mx-auto mb-4" />
             <p className="text-gray-500">Buscando informações...</p>
           </Card>
         )}
@@ -317,6 +317,3 @@ export function RastreioPage() {
 }
 
 export default RastreioPage;
-
-// Export nomeado para compatibilidade
-export { RastreioPage };

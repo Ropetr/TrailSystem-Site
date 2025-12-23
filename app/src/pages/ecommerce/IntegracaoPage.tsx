@@ -188,7 +188,7 @@ export function IntegracaoPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {isLoading ? (
           <div className="col-span-full flex justify-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600" />
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500" />
           </div>
         ) : integracoes.length === 0 ? (
           <Card className="col-span-full text-center py-12">
@@ -322,7 +322,7 @@ export function IntegracaoPage() {
                   type="button"
                   className={`p-4 rounded-lg border-2 transition-all ${
                     conectarForm.plataforma === key 
-                      ? 'border-red-600 bg-planac-50' 
+                      ? 'border-planac-500 bg-planac-50' 
                       : 'border-gray-200 hover:border-gray-300'
                   }`}
                   onClick={() => setConectarForm({ ...conectarForm, plataforma: key as any })}
@@ -406,6 +406,3 @@ export function IntegracaoPage() {
 }
 
 export default IntegracaoPage;
-
-// Export nomeado para compatibilidade
-export { IntegracaoPage };

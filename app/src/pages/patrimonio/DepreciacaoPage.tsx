@@ -310,6 +310,3 @@ export function DepreciacaoPage() {
 }
 
 export default DepreciacaoPage;
-
-// Export nomeado para compatibilidade
-export { DepreciacaoPage };

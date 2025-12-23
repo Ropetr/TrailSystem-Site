@@ -246,7 +246,7 @@ export function ClienteSelect({
           disabled 
             ? 'bg-gray-100 cursor-not-allowed' 
             : isOpen 
-              ? 'border-red-600 ring-2 ring-red-500 ring-opacity-20' 
+              ? 'border-planac-500 ring-2 ring-planac-500/20' 
               : error
                 ? 'border-red-300 hover:border-red-400'
                 : 'border-gray-200 hover:border-gray-300 cursor-pointer'

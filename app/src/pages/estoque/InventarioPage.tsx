@@ -461,7 +461,7 @@ export function InventarioPage() {
           
           {/* Item atual */}
           {itemContagem && (
-            <Card className="border-2 border-red-600">
+            <Card className="border-2 border-planac-500">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm text-gray-500">Código</p>
@@ -524,6 +524,3 @@ export function InventarioPage() {
 }
 
 export default InventarioPage;
-
-// Export nomeado para compatibilidade
-export { InventarioPage };

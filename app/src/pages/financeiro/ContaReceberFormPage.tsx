@@ -716,6 +716,3 @@ export default function ContaReceberFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { ContaReceberFormPage };

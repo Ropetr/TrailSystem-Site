@@ -459,6 +459,3 @@ export default function LancamentoFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { LancamentoFormPage };

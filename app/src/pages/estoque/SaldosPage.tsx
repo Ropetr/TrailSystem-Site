@@ -331,6 +331,3 @@ export function SaldosPage() {
 }
 
 export default SaldosPage;
-
-// Export nomeado para compatibilidade
-export { SaldosPage };

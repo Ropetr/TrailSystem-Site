@@ -376,6 +376,3 @@ export function CotacoesPage() {
 }
 
 export default CotacoesPage;
-
-// Export nomeado para compatibilidade
-export { CotacoesPage };

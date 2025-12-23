@@ -302,7 +302,7 @@ export function ConciliacaoPage() {
           
           {isLoading ? (
             <div className="flex items-center justify-center h-48">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-600" />
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-planac-500" />
             </div>
           ) : extrato.length === 0 ? (
             <div className="text-center py-12 text-gray-500">
@@ -372,7 +372,7 @@ export function ConciliacaoPage() {
           
           {isLoading ? (
             <div className="flex items-center justify-center h-48">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-600" />
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-planac-500" />
             </div>
           ) : movimentacoes.length === 0 ? (
             <div className="text-center py-12 text-gray-500">
@@ -525,6 +525,3 @@ export function ConciliacaoPage() {
 }
 
 export default ConciliacaoPage;
-
-// Export nomeado para compatibilidade
-export { ConciliacaoPage };

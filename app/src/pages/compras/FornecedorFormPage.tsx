@@ -345,6 +345,3 @@ export function FornecedorFormPage() {
 }
 
 export default FornecedorFormPage;
-
-// Export nomeado para compatibilidade
-export { FornecedorFormPage };

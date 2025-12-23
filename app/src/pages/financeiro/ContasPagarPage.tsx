@@ -589,6 +589,3 @@ export function ContasPagarPage() {
 }
 
 export default ContasPagarPage;
-
-// Export nomeado para compatibilidade
-export { ContasPagarPage };

@@ -525,6 +525,3 @@ export default function EntregaFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { EntregaFormPage };

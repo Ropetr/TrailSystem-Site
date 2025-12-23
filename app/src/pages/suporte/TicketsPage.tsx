@@ -441,6 +441,3 @@ export function TicketsPage() {
 }
 
 export default TicketsPage;
-
-// Export nomeado para compatibilidade
-export { TicketsPage };

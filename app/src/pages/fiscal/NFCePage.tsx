@@ -542,6 +542,3 @@ export function NFCePage() {
 }
 
 export default NFCePage;
-
-// Export nomeado para compatibilidade
-export { NFCePage };

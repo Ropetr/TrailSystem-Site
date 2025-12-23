@@ -141,6 +141,3 @@ export function EmpresasPage() {
 }
 
 export default EmpresasPage;
-
-// Export nomeado para compatibilidade
-export { EmpresasPage };

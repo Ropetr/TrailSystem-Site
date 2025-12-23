@@ -277,6 +277,3 @@ export function UsuarioFormPage() {
 }
 
 export default UsuarioFormPage;
-
-// Export nomeado para compatibilidade
-export { UsuarioFormPage };

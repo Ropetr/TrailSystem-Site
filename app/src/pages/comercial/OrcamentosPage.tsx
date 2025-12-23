@@ -628,6 +628,3 @@ function MescladosIndicator({
 }
 
 export default OrcamentosPage;
-
-// Export nomeado para compatibilidade
-export { OrcamentosPage };

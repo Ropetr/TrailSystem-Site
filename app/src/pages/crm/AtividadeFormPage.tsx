@@ -432,6 +432,3 @@ export default function AtividadeFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { AtividadeFormPage };

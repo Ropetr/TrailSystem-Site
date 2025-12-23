@@ -1,5 +1,5 @@
 // =============================================
-// TrailSystem ERP - Auth Layout (Login, etc)
+// PLANAC ERP - Auth Layout (Login, etc)
 // =============================================
 
 import React from 'react';

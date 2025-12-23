@@ -173,6 +173,3 @@ export default function AtivoFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { AtivoFormPage };

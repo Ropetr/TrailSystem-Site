@@ -449,6 +449,3 @@ export function OportunidadesPage() {
 }
 
 export default OportunidadesPage;
-
-// Export nomeado para compatibilidade
-export { OportunidadesPage };

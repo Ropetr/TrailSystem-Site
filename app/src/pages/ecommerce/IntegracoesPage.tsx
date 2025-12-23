@@ -304,7 +304,7 @@ export function IntegracoesPage() {
             {Object.entries(plataformasConfig).map(([key, config]) => (
               <button
                 key={key}
-                className="p-4 border rounded-lg hover:border-red-600 hover:bg-planac-50 transition-colors text-center"
+                className="p-4 border rounded-lg hover:border-planac-500 hover:bg-planac-50 transition-colors text-center"
                 onClick={() => setPlataformaSelecionada(key as keyof typeof plataformasConfig)}
               >
                 <span className="text-4xl block mb-2">{config.logo}</span>
@@ -415,6 +415,3 @@ export function IntegracoesPage() {
 }
 
 export default IntegracoesPage;
-
-// Export nomeado para compatibilidade
-export { IntegracoesPage };

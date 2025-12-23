@@ -693,6 +693,3 @@ export default function FornecedorFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { FornecedorFormPage };

@@ -709,6 +709,3 @@ export function RastreabilidadePage() {
 }
 
 export default RastreabilidadePage;
-
-// Export nomeado para compatibilidade
-export { RastreabilidadePage };

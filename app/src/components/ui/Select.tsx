@@ -62,7 +62,7 @@ export function Select({
             w-full px-3 py-2 bg-white border rounded-lg text-sm text-left
             flex items-center justify-between transition-colors
             ${disabled ? 'bg-gray-100 text-gray-400 cursor-not-allowed border-gray-200' : 'hover:border-gray-300 cursor-pointer border-gray-200'}
-            ${isOpen ? 'border-red-600 ring-2 ring-red-500 ring-opacity-20' : ''}
+            ${isOpen ? 'border-planac-500 ring-2 ring-planac-500/20' : ''}
             ${error ? 'border-red-500' : ''}
           `}
         >

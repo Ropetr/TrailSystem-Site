@@ -1029,6 +1029,3 @@ export function VendaFormPage() {
 }
 
 export default VendaFormPage;
-
-// Export nomeado para compatibilidade
-export { VendaFormPage };

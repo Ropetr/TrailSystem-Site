@@ -617,6 +617,3 @@ export default function PedidoCompraFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { PedidoCompraFormPage };

@@ -403,6 +403,3 @@ export default function PerfilFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { PerfilFormPage };

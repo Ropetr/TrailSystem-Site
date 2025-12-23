@@ -144,7 +144,7 @@ export function DREPage() {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-96">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600" />
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500" />
       </div>
     );
   }
@@ -271,6 +271,3 @@ export function DREPage() {
 }
 
 export default DREPage;
-
-// Export nomeado para compatibilidade
-export { DREPage };

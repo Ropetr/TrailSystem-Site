@@ -264,7 +264,7 @@ export function RotasPage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
         {isLoading ? (
           <div className="col-span-full flex justify-center py-12">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600" />
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500" />
           </div>
         ) : rotas.length === 0 ? (
           <div className="col-span-full text-center py-12 text-gray-500">
@@ -503,6 +503,3 @@ export function RotasPage() {
 }
 
 export default RotasPage;
-
-// Export nomeado para compatibilidade
-export { RotasPage };

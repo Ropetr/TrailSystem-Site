@@ -470,6 +470,3 @@ export function PontoPage() {
 }
 
 export default PontoPage;
-
-// Export nomeado para compatibilidade
-export { PontoPage };

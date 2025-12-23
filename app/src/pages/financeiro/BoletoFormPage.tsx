@@ -208,6 +208,3 @@ export default function BoletoFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { BoletoFormPage };

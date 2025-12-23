@@ -485,6 +485,3 @@ export function FrotaPage() {
 }
 
 export default FrotaPage;
-
-// Export nomeado para compatibilidade
-export { FrotaPage };

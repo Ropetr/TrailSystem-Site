@@ -1,5 +1,5 @@
 // =============================================
-// TrailSystem ERP - Header
+// PLANAC ERP - Header
 // Cores iOS/Samsung Dark Mode
 // =============================================
 
@@ -66,7 +66,7 @@ export function Header({ onMenuClick }: HeaderProps) {
               {usuario?.avatar_url ? (
                 <img src={usuario.avatar_url} alt="" className="w-8 h-8 rounded-full" />
               ) : (
-                <Icons.user className="w-5 h-5 text-red-600 dark:text-red-400" />
+                <Icons.user className="w-5 h-5 text-planac-600 dark:text-red-400" />
               )}
             </div>
             <div className="hidden sm:block text-left">

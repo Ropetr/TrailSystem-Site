@@ -508,6 +508,3 @@ export function PedidosOnlinePage() {
 }
 
 export default PedidosOnlinePage;
-
-// Export nomeado para compatibilidade
-export { PedidosOnlinePage };

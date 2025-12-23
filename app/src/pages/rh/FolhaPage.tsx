@@ -511,6 +511,3 @@ export function FolhaPage() {
 }
 
 export default FolhaPage;
-
-// Export nomeado para compatibilidade
-export { FolhaPage };

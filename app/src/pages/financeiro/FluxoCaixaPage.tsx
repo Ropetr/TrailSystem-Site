@@ -299,7 +299,7 @@ export function FluxoCaixaPage() {
       <Card padding="none">
         {isLoading ? (
           <div className="flex items-center justify-center h-64">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600" />
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500" />
           </div>
         ) : fluxoAgrupado.length === 0 ? (
           <div className="text-center py-12 text-gray-500">
@@ -402,6 +402,3 @@ export function FluxoCaixaPage() {
 }
 
 export default FluxoCaixaPage;
-
-// Export nomeado para compatibilidade
-export { FluxoCaixaPage };

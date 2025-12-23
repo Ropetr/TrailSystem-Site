@@ -319,6 +319,3 @@ export function ConfiguracoesPage() {
 }
 
 export default ConfiguracoesPage;
-
-// Export nomeado para compatibilidade
-export { ConfiguracoesPage };

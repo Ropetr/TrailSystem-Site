@@ -684,6 +684,3 @@ export default function CotacaoFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { CotacaoFormPage };

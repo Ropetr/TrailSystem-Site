@@ -480,6 +480,3 @@ export function FuncionariosPage() {
 }
 
 export default FuncionariosPage;
-
-// Export nomeado para compatibilidade
-export { FuncionariosPage };

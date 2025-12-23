@@ -589,6 +589,3 @@ export function BoletosPage() {
 }
 
 export default BoletosPage;
-
-// Export nomeado para compatibilidade
-export { BoletosPage };

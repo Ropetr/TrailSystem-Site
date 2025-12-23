@@ -464,6 +464,3 @@ export function LeadsPage() {
 }
 
 export default LeadsPage;
-
-// Export nomeado para compatibilidade
-export { LeadsPage };

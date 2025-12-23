@@ -449,6 +449,3 @@ export function VendasPage() {
 }
 
 export default VendasPage;
-
-// Export nomeado para compatibilidade
-export { VendasPage };

@@ -488,6 +488,3 @@ export function RelatoriosPage() {
 }
 
 export default RelatoriosPage;
-
-// Export nomeado para compatibilidade
-export { RelatoriosPage };

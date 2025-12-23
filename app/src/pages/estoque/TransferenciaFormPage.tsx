@@ -483,6 +483,3 @@ export default function TransferenciaFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { TransferenciaFormPage };

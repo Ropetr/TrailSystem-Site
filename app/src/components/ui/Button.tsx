@@ -42,7 +42,7 @@ export function Button({
     <button
       className={`
         inline-flex items-center justify-center font-medium rounded-xl border
-        transition-colors focus:outline-none focus:ring-2 focus:ring-red-500 ring-opacity-20
+        transition-colors focus:outline-none focus:ring-2 focus:ring-planac-500/20
         disabled:opacity-50 disabled:cursor-not-allowed
         ${variants[variant]}
         ${sizes[size]}

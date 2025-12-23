@@ -660,6 +660,3 @@ export default function ContaPagarFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { ContaPagarFormPage };

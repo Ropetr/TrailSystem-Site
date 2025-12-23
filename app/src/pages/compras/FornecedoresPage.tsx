@@ -633,6 +633,3 @@ export function FornecedoresPage() {
 }
 
 export default FornecedoresPage;
-
-// Export nomeado para compatibilidade
-export { FornecedoresPage };

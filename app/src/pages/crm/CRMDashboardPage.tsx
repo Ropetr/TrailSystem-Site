@@ -484,6 +484,3 @@ export function CRMDashboardPage() {
 }
 
 export default CRMDashboardPage;
-
-// Export nomeado para compatibilidade
-export { CRMDashboardPage };

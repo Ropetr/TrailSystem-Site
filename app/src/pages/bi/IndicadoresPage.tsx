@@ -122,7 +122,7 @@ export function IndicadoresPage() {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-96">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600" />
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-planac-500" />
       </div>
     );
   }
@@ -302,6 +302,3 @@ export function IndicadoresPage() {
 }
 
 export default IndicadoresPage;
-
-// Export nomeado para compatibilidade
-export { IndicadoresPage };

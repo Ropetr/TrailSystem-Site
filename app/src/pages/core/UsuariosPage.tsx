@@ -133,6 +133,3 @@ export function UsuariosPage() {
 }
 
 export default UsuariosPage;
-
-// Export nomeado para compatibilidade
-export { UsuariosPage };

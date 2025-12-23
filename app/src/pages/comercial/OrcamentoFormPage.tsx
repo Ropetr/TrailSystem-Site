@@ -1064,6 +1064,3 @@ export function OrcamentoFormPage() {
 }
 
 export default OrcamentoFormPage;
-
-// Export nomeado para compatibilidade
-export { OrcamentoFormPage };

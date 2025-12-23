@@ -1,5 +1,5 @@
 // =============================================
-// TrailSystem ERP - Theme Store (Context)
+// PLANAC ERP - Theme Store (Context)
 // Gerenciamento de tema claro/escuro
 // =============================================
 

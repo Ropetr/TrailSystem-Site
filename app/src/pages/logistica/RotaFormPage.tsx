@@ -249,6 +249,3 @@ export default function RotaFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { RotaFormPage };

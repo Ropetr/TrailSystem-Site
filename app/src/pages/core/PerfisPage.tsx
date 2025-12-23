@@ -326,6 +326,3 @@ export function PerfisPage() {
 }
 
 export default PerfisPage;
-
-// Export nomeado para compatibilidade
-export { PerfisPage };

@@ -1,5 +1,5 @@
 // =============================================
-// TrailSystem ERP - Main Layout
+// PLANAC ERP - Main Layout
 // Cores iOS/Samsung Dark Mode (preto puro)
 // =============================================
 

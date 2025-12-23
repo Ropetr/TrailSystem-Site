@@ -368,6 +368,3 @@ export function ProdutosPage() {
 }
 
 export default ProdutosPage;
-
-// Export nomeado para compatibilidade
-export { ProdutosPage };

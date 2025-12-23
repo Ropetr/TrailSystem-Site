@@ -1,5 +1,5 @@
 // =============================================
-// TrailSystem ERP - Routes Completas
+// PLANAC ERP - Routes Completas
 // Atualizado: 15/12/2025 - Rotas alinhadas com Sidebar
 // =============================================
 

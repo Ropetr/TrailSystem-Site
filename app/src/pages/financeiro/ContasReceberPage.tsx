@@ -595,6 +595,3 @@ export function ContasReceberPage() {
 }
 
 export default ContasReceberPage;
-
-// Export nomeado para compatibilidade
-export { ContasReceberPage };

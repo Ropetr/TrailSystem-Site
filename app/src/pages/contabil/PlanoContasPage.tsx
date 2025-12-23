@@ -302,7 +302,7 @@ export function PlanoContasPage() {
         
         {isLoading ? (
           <div className="p-8 text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-600 mx-auto" />
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-planac-500 mx-auto" />
           </div>
         ) : (
           <div className="max-h-[600px] overflow-auto">
@@ -382,6 +382,3 @@ export function PlanoContasPage() {
 }
 
 export default PlanoContasPage;
-
-// Export nomeado para compatibilidade
-export { PlanoContasPage };

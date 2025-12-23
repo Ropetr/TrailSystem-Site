@@ -295,6 +295,3 @@ export default function OportunidadeFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { OportunidadeFormPage };

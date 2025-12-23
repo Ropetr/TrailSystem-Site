@@ -445,6 +445,3 @@ export function AtivosPage() {
 }
 
 export default AtivosPage;
-
-// Export nomeado para compatibilidade
-export { AtivosPage };

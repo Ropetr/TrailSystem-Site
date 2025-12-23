@@ -242,6 +242,3 @@ export function FiliaisPage() {
 }
 
 export default FiliaisPage;
-
-// Export nomeado para compatibilidade
-export { FiliaisPage };

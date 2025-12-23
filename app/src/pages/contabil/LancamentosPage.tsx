@@ -536,6 +536,3 @@ export function LancamentosPage() {
 }
 
 export default LancamentosPage;
-
-// Export nomeado para compatibilidade
-export { LancamentosPage };

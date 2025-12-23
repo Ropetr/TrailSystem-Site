@@ -609,6 +609,3 @@ export default function LeadFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { LeadFormPage };

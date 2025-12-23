@@ -46,28 +46,28 @@ export function DashboardPage() {
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-4">
           <a
             href="/empresas"
-            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-planac-50 transition-colors"
+            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-planac-500 hover:bg-planac-50 transition-colors"
           >
             <Icons.building className="w-8 h-8 text-planac-500" />
             <span className="text-sm font-medium text-gray-700">Empresas</span>
           </a>
           <a
             href="/usuarios"
-            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-planac-50 transition-colors"
+            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-planac-500 hover:bg-planac-50 transition-colors"
           >
             <Icons.users className="w-8 h-8 text-planac-500" />
             <span className="text-sm font-medium text-gray-700">Usuários</span>
           </a>
           <a
             href="/perfis"
-            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-planac-50 transition-colors"
+            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-planac-500 hover:bg-planac-50 transition-colors"
           >
             <Icons.lock className="w-8 h-8 text-planac-500" />
             <span className="text-sm font-medium text-gray-700">Perfis</span>
           </a>
           <a
             href="/configuracoes"
-            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-red-600 hover:bg-planac-50 transition-colors"
+            className="flex flex-col items-center gap-2 p-4 rounded-xl border border-gray-200 hover:border-planac-500 hover:bg-planac-50 transition-colors"
           >
             <Icons.settings className="w-8 h-8 text-planac-500" />
             <span className="text-sm font-medium text-gray-700">Configurações</span>
@@ -79,6 +79,3 @@ export function DashboardPage() {
 }
 
 export default DashboardPage;
-
-// Export nomeado para compatibilidade
-export { DashboardPage };

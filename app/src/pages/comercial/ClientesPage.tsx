@@ -319,6 +319,3 @@ export function ClientesPage() {
 }
 
 export default ClientesPage;
-
-// Export nomeado para compatibilidade
-export { ClientesPage };

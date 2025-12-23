@@ -191,6 +191,3 @@ export default function TicketFormPage() {
     </div>
   );
 }
-
-// Export nomeado para compatibilidade
-export { TicketFormPage };
