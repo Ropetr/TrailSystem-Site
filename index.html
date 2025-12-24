@@ -228,6 +228,17 @@
       border-radius: 50%;
     }
 
+    .hero-transition {
+      position: absolute;
+      bottom: -150px;
+      left: 0;
+      right: 0;
+      height: 200px;
+      background: linear-gradient(to bottom, var(--gray-50) 0%, transparent 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
     .hero-content {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -463,19 +474,6 @@
     .features {
       padding: 120px 0;
       background: var(--white);
-      position: relative;
-    }
-
-    .features::before {
-      content: '';
-      position: absolute;
-      top: -150px;
-      left: 0;
-      right: 0;
-      height: 200px;
-      background: linear-gradient(to bottom, transparent 0%, var(--white) 100%);
-      pointer-events: none;
-      z-index: 2;
     }
 
     .features-header {
@@ -1277,6 +1275,7 @@
         </div>
       </div>
     </div>
+      <div class="hero-transition"></div>
   </section>
 
   <!-- Features -->
